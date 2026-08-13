@@ -1,1 +1,201 @@
-# enhansome-xapi
+# Awesome xAPI with stars
+
+A curated list of developer resources for [**Webex Devices API**](https://cs.co/roomdevices) inspired by awesome-go and awesome-python.
+
+> Looking for developer resources for **Webex Messaging and Meetings**? check [awesome-webex](https://github.com/CiscoDevNet/awesome-webex) ⭐ 250 | 🐛 44 | 📅 2022-07-14.<br/>
+
+### Contributing
+
+Please take a quick gander at the [Contribution guidelines](./CONTRIBUTING.md) first. Thanks to all contributors; you rock!
+
+If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!
+
+### Contents
+
+DISCLAIMER: Cisco does not make any commitments about the resources listed in this document, nor the accuracy of the third party resources and any content accessible via the links below.
+
+* [!Get Started!](#!get-started!)
+* [Articles and Blogs](#articles)
+* [Building Blocks](#building-blocks)
+* [Code Samples](#code-samples)
+* [Developer Tools](#developer-tools)
+  * [DevNet Sandbox](#sandbox)
+* [Reference](#reference)
+  * [PDF Guides](#reference-guides)
+* [3rd Party Hardware](#third-party)
+
+## !Get Started!
+
+*Tour the xAPI via step-by-step tutorials.*
+
+* [Introduction to xAPI](https://learninglabs.cisco.com/lab/collab-xapi-intro/step/1) - Learn to invoke your device's API via SSH, HTTP and Node.js (by Cisco DevNet).
+* [In-Room Controls](https://learninglabs.cisco.com/lab/collab-xapi-controls/step/1) - Create an "Ultrasound Panel" animated via Node.js or a Macro (by Cisco DevNet).
+* [Macro Scripting](https://github.com/CiscoDevNet/xapi-samples/blob/master/macros/pdf/macro-tutorial.pdf) ⭐ 49 | 🐛 8 | 🌐 HTML | 📅 2020-08-31 - Write your first Macro scripts (by Cisco CE).
+* [Personalizing your device](https://learninglabs.cisco.com/lab/collab-xapi-branding/step/1) - Add your own logo and custom messages from code (by Cisco DevNet).
+
+## Articles
+
+*Blogs and community articles that document features, cover use cases or propose code samples.*
+
+* Blogs introducting new Features
+  * [Introducing HTTPClient](https://community.cisco.com/t5/collaboration-voice-and-video/ce9-6-x-in-room-control-and-macros-usb-input-devices-http-post/ba-p/3765081) - HTTP POST/PUT/GET/DELETE/PATCH with return
+  * [Introducing Kiosk Mode](https://community.cisco.com/t5/collaboration-voice-and-video/ce9-6-x-in-room-control-and-macros-usb-input-devices-http-post/ba-p/3765081) - Hide default Call, Share and Meetings buttons
+  * [Introducing USB input](https://community.cisco.com/t5/collaboration-voice-and-video/ce9-6-x-in-room-control-and-macros-usb-input-devices-http-post/ba-p/3765081) - Support for 3rd party USB input devices (keyboards)
+  * [Introducing WebSockets](https://community.cisco.com/t5/collaboration-voice-and-video/xapi-over-websocket-xows-ce9-7-x/ba-p/3831553) - xAPI over WebSockets: XoWS (pronounced cows).
+  * [Introducing WebEngine](https://community.cisco.com/t5/collaboration-voice-and-video/a-dive-into-web-engine-and-the-new-ui-extensions-editor-digital/ba-p/3947191) - A dive into Web Engine, Digital Signage & Web Apps.
+* Community Articles
+  * [CE Programmability](https://blogs.cisco.com/developer/build-apps-for-webex-devices) - Learn How To Build Applications for Webex Devices.
+  * [Holy cows!](https://blog.webex.com/collaboration-devices/holy-cows-xows-delivering-the-art-of-possible-with-video-devices/) - Delivering the art of possible with video devices.
+  * [SIP messaging channel](https://voipnorm.blogspot.com/2019/07/ce-sip-messaging-channel-for-remote.html) - SIP Messaging Channel for Remote Endpoint Control.
+  * [CE9-projects](https://github.com/thetechcatalyst/CE9-projects) ⭐ 25 | 🐛 0 | 🌐 JavaScript | 📅 2021-07-30 - Adam Schaeffer sharing projects and ideas.
+  * [WebSocket vs SSH vs HttpFeedback](http://voipnorm.blogspot.com/2019/07/ce-websocket-v-ssh-v-httpfeedback-which.html) - Which is Best?.
+* Help Articles
+  * [Advanced Settings](https://collaborationhelp.cisco.com/article/en-us/n5pqqcm) - Advanced Settings for Room and Desk Devices
+  * [Integrating](https://collaborationhelp.cisco.com/article/en-us/n18glho) - In-Room Controls and Use of an External Video Switch with Room Devices
+  * [Local user](https://collaborationhelp.cisco.com/article/en-us/jkhs20) - Local User Administration on Room and Desk Devices
+  * [Screens setup tips](https://collaborationhelp.cisco.com/article/en-us/nyi4lcq) - Recommended external screen settings for Room Devices.
+  * [USB input-device](https://help.webex.com/en-us/nhqh1mf/Example-on-the-Use-of-a-Third-Party-USB-Input-Device) - Use of a 3rd party USB input device.
+
+## Building Blocks
+
+*Helper libraries to interact with codecs*
+
+* Command Line Interface
+  * [xows CLI](https://github.com/cisco-ce/pyxows/blob/master/xows/__main__.py) ⭐ 19 | 🐛 0 | 🌐 Python | 📅 2022-05-09 - Command-line utility built on top of pyxows (by Cisco CE).
+* JavaScript
+  * [jsxapi](https://github.com/cisco-ce/jsxapi) ⭐ 46 | 🐛 17 | 🌐 TypeScript | 📅 2026-01-21 - JavaScript bindings for Cisco Collaboration Endpoint  XAPI (by Cisco CE).
+  * [sugar](https://github.com/valgaze/sugar) ⭐ 5 | 🐛 6 | 🌐 JavaScript | 📅 2023-01-05 - Syntactic "$ugar" for handling user input (by valgaze).
+* Postman
+  * [ce-xapi-as-admin](https://explore.postman.com/api/1802/cisco-ce-xapi-as-admin) - Collection for CE xAPI as Administrator (by ObjectIsAdvantag).
+  * [ce-xapi-as-integrator](https://explore.postman.com/api/1803/cisco-ce-xapi-as-integrator) - Collection for CE xAPI as Integrator (by ObjectIsAdvantag).
+  * [webex-admin-api](https://explore.postman.com/api/1805/webex-admin-api) - Collection for Webex Administrators (by ObjectIsAdvantag).
+  * [webex-devices-xapi](https://explore.postman.com/api/7483/) - Collection for cloud /xAPI (by ObjectIsAdvantag).
+* PowerShell
+  * [Send-XCommand](https://github.com/unifiedfx/Send-XCommand) ⭐ 13 | 🐛 1 | 🌐 PowerShell | 📅 2016-06-30 - Cmdlets for sending xConfiguration & xCommand requests (by stephenwelsh).
+* Python
+  * [pyxows](https://github.com/cisco-ce/pyxows) ⭐ 19 | 🐛 0 | 🌐 Python | 📅 2022-05-09 - Python bindings for Cisco Collaboration Endpoint xAPI over WebSockets (by Cisco CE).
+
+## Code Samples
+
+*From basic examples to finalized solutions illustrating the xAPI capabilities.*
+
+* Repositories of examples
+  * [roomdevices-macros-samples](https://github.com/CiscoDevNet/roomdevices-macros-samples) ⭐ 197 | 🐛 14 | 🌐 JavaScript | 📅 2026-03-24 - Selection of macros proposed by the xAPI dev team (by Cisco CE).
+  * [xapi-samples](https://github.com/CiscoDevNet/xapi-samples) ⭐ 49 | 🐛 8 | 🌐 HTML | 📅 2020-08-31 - UI extensions, macros and scripts to quickly learn xAPI (by ObjectIsAdvantag).
+  * [CE9-projects](https://github.com/technologyordie/CE9-projects) ⭐ 25 | 🐛 0 | 🌐 JavaScript | 📅 2021-07-30 - Projects for Cisco DX, MX, SX and Room Systems (by technologyordie).
+  * [yolo-oslo](https://github.com/acaeti/yolo-oslo) ⭐ 5 | 🐛 0 | 🌐 JavaScript | 📅 2019-05-08 - Repository of in-room controls and macro samples (by acaeti).
+  * [macro-projects-Examples](https://github.com/Bobby-McGonigle/Cisco-RoomDevice-Macro-Projects-Examples) - Cisco Video Endpoint Macro Repository (by Bobby-McGonigle).
+* Solutions
+  * [maze game](https://github.com/CiscoDevNet/xapi-samples/tree/master/controls/maze) ⭐ 49 | 🐛 8 | 🌐 HTML | 📅 2020-08-31 - Navigate blind in a maze, look for the treasure (by ObjectIsAdvantag).
+  * [MyRoomKit](https://github.com/CiscoDevNet/botkit-webex-samples/tree/master/roomkit) ⭐ 47 | 🐛 12 | 🌐 JavaScript | 📅 2022-12-12 - Botkit chatbot as an extension of a RoomKit device (by ObjectIsAdvantag).
+  * [cisco-tp-snapshots](https://github.com/drkchiloll/cisco-tp-snapshots) ⭐ 16 | 🐛 0 | 🌐 TypeScript | 📅 2018-11-16 - Take snapshots with your Cisco Room Device, aka Telepresence Endpoint (by drkchiloll).
+  * [roomkit-collector](https://github.com/ObjectIsAdvantag/roomkit-collector) ⭐ 16 | 🐛 4 | 🌐 HTML | 📅 2020-01-23 - Collect PeopleCount events and compute weighted averages (by ObjectIsAdvantag).
+  * [codec-dashboard](https://github.com/gsheppar/codec-dashboard) ⭐ 14 | 🐛 0 | 🌐 Python | 📅 2017-10-05 - Web dashboard to display/alert on codec information (by gsheppar).
+  * [feedback-meeting](https://github.com/tloyau/feedback-meeting) ⭐ 12 | 🐛 1 | 🌐 Vue | 📅 2018-07-02 - Dashboard built from feedback collected via a custom "Call Survey" control (by tloyau).
+  * [telehealthPresence](https://github.com/voipnorm/telehealthPresence) ⭐ 12 | 🐛 0 | 🌐 JavaScript | 📅 2018-11-15 - Add additional presence states for video endpoints in Jabber (by voipnorm).
+  * [roomkit-react-map](https://github.com/ObjectIsAdvantag/roomkit-react-map) ⭐ 7 | 🐛 0 | 🌐 JavaScript | 📅 2018-06-22 - React map showing PeopleCount analytics fired by a set of RoomKits (by ObjectIsAdvantag).
+  * [video status monitor](https://github.com/DJF3/Cisco-Video-System-Status-Monitor) ⭐ 6 | 🐛 2 | 🌐 PHP | 📅 2019-07-15 - Web page displaying call status and people count/presence (by DJF3).
+  * [roomie](https://bitbucket.org/bjolseth/roomie) - App reporting whether there are people in the meeting rooms (by bjolseth).
+
+## Developer Tools
+
+*Handy tools and building-blocks to create, test and deploy applications.*
+
+* <a name="sandbox">Sandbox</a><a name="sandboxes"></a> - Reserve a CE device and code for up to a week (by DevNet).
+  * [RoomOS 10.3 Sandbox]() - RoomKit pro equiped with CE 10.3 (work in progress, stay tuned).
+  * [CE9.15 Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/937bd886-3eed-45a2-afe0-8c48337e8bea?diagramType=Topology) - RoomKit pro equiped with CE 9.15.
+* Test
+  * [Playground](https://controls-editor.herokuapp.com) - Launch the UI Extensions Editor straight from Chrome, no codec (by ObjectIsAdvantag).
+  * SIP test addresses - <111@bjn.vc>, <fireplace@ivr.vc>, <goldfish@selfie.vc>, <halloween@ivr.vc>, <havnen@expressway.dk>.
+* Deploy
+  * [CE-Deploy](https://github.com/voipnorm/CE-Deploy) ⭐ 59 | 🐛 21 | 🌐 HTML | 📅 2026-08-04 - Desktop application for deploying features (by voipnorm).
+  * [CiscoTPCustomXML](https://github.com/voipnorm/CiscoTPCustomXML) ⭐ 11 | 🐛 0 | 🌐 JavaScript | 📅 2018-04-24 - Deploy packages to Cisco Telepresence apps (by vipnorm).
+  * [macros-env](https://github.com/ObjectIsAdvantag/macros-env) ⭐ 2 | 🐛 0 | 🌐 JavaScript | 📅 2023-06-06 - Enhance your macro runtime with environment variables (by ObjectIsAdvantag).
+
+## Reference
+
+*Documentation, product resources and technical support.*
+
+* Portals and Dev Centers
+  * [Adoption Toolkits](https://community.cisco.com/t5/collaboration-adoption-documents/cisco-webex-devices-adoption-toolkits/ta-p/3832348) - Video value statements, quick-start guides, use cases and promotional posters.
+  * [Configuration guides](https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-quick-set-series/products-installation-and-configuration-guides-list.html) - Configure your Touch10 interface or 3rd party Video Switchers
+  * [Developer Portal](https://developer.cisco.com/site/roomdevices/) - Technical resources for developers and integrators.
+  * [Product resources](https://www.cisco.com/c/en/us/support/collaboration-endpoints/index.html) - Resources for all Supported Collaboration Endpoints.
+  * [Project Workplace](https://projectworkplace.cisco.com) - Discover Cisco's devices portfolio, product features and recommandations.
+* Release notes
+  * [CE 9.x Release notes](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/software/ce9/release-notes/ce-software-release-notes-ce9.pdf) - New features and functionality in CE9.
+  * [RoomOS What's new](https://help.webex.com/en-us/6ger7db/What-s-New-in-RoomOS) - New features and capabilities for RoomOS.
+* Technical Support
+  * ['xAPI devs' space](https://eurl.io/#rkp76XDrG) - Chat live with other developers in Webex Teams.
+  * [Forums](https://supportforums.cisco.com/t5/telepresence/bd-p/5886-discussions-telepresence) - Telepresence forum by Cisco Support Community.
+  * [Known issues](https://help.webex.com/en-us/llygcp/Known-and-Resolved-Issues-in-RoomOS) - Known and Resolved issues for RoomOS.
+* Videos
+  * [Customizing Devices](https://www.youtube.com/watch?v=h9Hv829SM14\&list=PL_YnWo4XhzTe8CyOppyhheB8UN40mDYiX) - Introduction to Video Series.
+  * [Kiosk](https://www.youtube.com/watch?v=zn9gDuPwyrY) - Removing default buttons.
+  * [Presenter Track](https://www.youtube.com/watch?v=-MKlCT1xupM) - How PresenterTrack behaves in a few common scenarios.
+  * [Timer](https://www.youtube.com/watch?v=YNN9rFbT6bk) - Timer creation for Webex devices.
+  * [UI Extensions](https://www.youtube.com/watch?v=kEXjGpMdVaU\&list=PL_YnWo4XhzTe8CyOppyhheB8UN40mDYiX\&index=3) - Creating a speed dial.
+  * [Web Apps](https://www.youtube.com/watch?v=qKqlIReRJog\&t=6s) - Creating Web Applications on a Webex Board.
+
+### Reference Guides
+
+*API Reference, Configuration and Administration guide for specific versions of CE and RoomOS.*
+
+* Product Documentation
+  * [Cisco TelePresence systems](https://www.cisco.com/go/telepresence/docs)
+  * [Cisco Webex registered devices](https://help.webex.com)
+  * [Board Devices](https://www.cisco.com/go/board-docs), [DX](https://www.cisco.com/go/dx-docs), [MX](https://www.cisco.com/go/mx-docs), [Room Devices](https://www.cisco.com/go/room-docs), [SX](https://www.cisco.com/go/sx-docs)
+* RoomOS 10.3
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/roomos-103/api-reference-guide-roomos-103.pdf)
+* CE 9.15
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce915/collaboration-endpoint-software-api-reference-guide-ce915.pdf), [Administrator Guide (CodecPro)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce915/codec-pro-administrator-guide-ce915.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce915/sx-mx-dx-room-kit-boards-customization-guide-ce915.pdf), Getting Started Guide (not available)
+* CE 9.14
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce914/collaboration-endpoint-software-api-reference-guide-ce914.pdf), [Administrator Guide (CodecPro)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce914/codec-pro-administrator-guide-ce914.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce914/sx-mx-dx-room-kit-boards-customization-guide-ce914.pdf), [Getting Started Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce914/dx70-dx80-sx10-sx20-sx80-mx200g2-mx300g2-mx700-mx800-room-kit-boards-getting-started-guide-ce914.pdf)
+* CE 9.13
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce913/collaboration-endpoint-software-api-reference-guide-ce913.pdf), [Administrator Guide (CodecPro)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce913/codec-pro-administrator-guide-ce913.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce913/sx-mx-dx-room-kit-boards-customization-guide-ce913.pdf), [Getting Started Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce913/dx70-dx80-sx10-sx20-sx80-mx200g2-mx300g2-mx700-mx800-room-kit-boards-getting-started-guide-ce913.pdf)
+* CE 9.12
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce912/collaboration-endpoint-software-api-reference-guide-ce912.pdf), [Administrator Guide (CodecPro)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce912/codec-pro-administrator-guide-ce912.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce912/sx-mx-dx-room-kit-boards-customization-guide-ce912.pdf), [Getting Started Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce912/dx70-dx80-sx10-sx20-sx80-mx200g2-mx300g2-mx700-mx800-room-kit-boards-getting-started-guide-ce912.pdf)
+* CE 9.10
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce910/collaboration-endpoint-software-api-reference-guide-ce910.pdf), [Administrator Guide (CodecPro)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce910/codec-pro-administrator-guide-ce910.pdf), and [(RoomKit)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce910/room-kit-administrator-guide-ce910.pdf), Customization Guide (not available)
+* CE 9.9
+  * [Blog: WebEngine and new UI Extensions Editor](https://community.cisco.com/t5/collaboration-voice-and-video/a-dive-into-web-engine-and-the-new-ui-extensions-editor-digital/ba-p/3947191)
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce99/collaboration-endpoint-software-api-reference-guide-ce99.pdf), [Administrator Guide (CodecPro)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce99/codec-pro-administrator-guide-ce99.pdf), and [(RoomKit)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce99/room-kit-administrator-guide-ce99.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce99/sx-mx-dx-room-kit-boards-customization-guide-ce99.pdf)
+* CE 9.8
+  * [Blog: New features](https://community.cisco.com/t5/collaboration-voice-and-video/ce9-6-x-in-room-control-and-macros-usb-input-devices-http-post/ba-p/3765081),
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce98/collaboration-endpoint-software-api-reference-guide-ce98.pdf), [Administrator Guide (CodecPro)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce98/codec-pro-administrator-guide-ce98.pdf), and [(RoomKit)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce98/room-kit-administrator-guide-ce98.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce98/sx-mx-dx-room-kit-boards-customization-guide-ce98.pdf)
+* CE 9.7
+  * [Blog: xAPI over WebSocket](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/api/collaboration-endpoint-software-api-transport.pdf)
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce97/collaboration-endpoint-software-api-reference-guide-ce97.pdf), [Administrator Guide (CodecPro)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce97/codec-pro-administrator-guide-ce97.pdf), and [(RoomKit)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce97/room-kit-administrator-guide-ce97.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce97/sx-mx-dx-room-kit-customization-guide-ce97.pdf)
+* CE 9.6
+  * [Blog: New features](https://community.cisco.com/t5/collaboration-voice-and-video/ce9-6-x-in-room-control-and-macros-usb-input-devices-http-post/ba-p/3765081)
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce96/collaboration-endpoint-software-api-reference-guide-ce96.pdf), [Administrator Guide (CodecPro)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce96/codec-pro-administrator-guide-ce96.pdf), and [(RoomKit)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce96/room-kit-administrator-guide-ce96.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce96/sx-mx-dx-room-kit-customization-guide-ce96.pdf)
+* CE 9.5
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce95/collaboration-endpoint-software-api-reference-guide-ce95.pdf), [Administrator Guide (CodecPro)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce95/codec-pro-administrator-guide-ce95.pdf), and [(RoomKit)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce95/room-kit-administrator-guide-ce95.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce95/sx-mx-dx-room-kit-customization-guide-ce95.pdf)
+* CE 9.4
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce94/collaboration-endpoint-software-api-reference-guide-ce94.pdf), [Administrator Guide (CodecPro)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce94/codec-pro-administrator-guide-ce94.pdf), and [(RoomKit)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce94/room-kit-administrator-guide-ce94.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce94/sx-mx-dx-room-kit-customization-guide-ce94.pdf)
+* CE 9.3
+  * [API Reference Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce93/collaboration-endpoint-software-api-reference-guide-ce93.pdf), [Administration Guide (RoomKit)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce93/room-kit-administrator-guide-ce93.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce93/sx-mx-dx-room-kit-customization-guide-ce93.pdf)
+* CE 9.2
+  * [API Reference Guide (DX70/DX80)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce92/dx70-dx80-api-reference-guide-ce92.pdf) and [(RoomKit)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce92/room-kit-api-reference-guide-ce92.pdf), [Administration Guide (RoomKit)](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce92/room-kit-administrator-guide-ce92.pdf), [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce92/sx-mx-dx-room-kit-customization-guide-ce92.pdf)
+
+## Third-Party
+
+*Hardware, integrations and control systems*
+
+* Control Systems
+  * [AMX/Harman](https://trade.amx.com/Net/Inconcert/Devices/inconcertmainpage.aspx)
+  * [Creston](http://applicationmarket.crestron.com/cisco/)
+  * [Extron](https://www.extron.com/company/article.aspx?id=ciscotouch)
+  * [Lightware](https://lightware.com/cisco-integration-tool/)
+* Other Hardware
+  * [Audio Plug Terminal Block](https://www.adafruit.com/product/2914)
+  * [USB to Serial Adapter](https://www.tripplite.com/support/USA19HS)
+* USB HID Compliant devices
+  * [Dynamag](https://www.magtek.com/product/dynamag) - Card Reader
+  * [Logitech R400](https://support.logi.com/hc/en-us/articles/360023466513-R400-Technical-Specifications) - Wireless Presenter
+* Video Integrations
+  * [Kaptivo](https://kaptivo.com/cisco-rooms/)
+
+***
+
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-13._
