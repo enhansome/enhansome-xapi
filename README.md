@@ -2,7 +2,7 @@
 
 A curated list of developer resources for [**Webex Devices API**](https://cs.co/roomdevices) inspired by awesome-go and awesome-python.
 
-> Looking for developer resources for **Webex Messaging and Meetings**? check [awesome-webex](https://github.com/CiscoDevNet/awesome-webex) ⭐ 250 | 🐛 44 | 📅 2022-07-14.<br/>
+> Looking for developer resources for **Webex Messaging and Meetings**? check [awesome-webex](https://github.com/CiscoDevNet/awesome-webex) ⭐ 251 | 🐛 44 | 📅 2022-07-14.<br/>
 
 ### Contributing
 
