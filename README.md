@@ -108,7 +108,7 @@ DISCLAIMER: Cisco does not make any commitments about the resources listed in th
   * [Playground](https://controls-editor.herokuapp.com) - Launch the UI Extensions Editor straight from Chrome, no codec (by ObjectIsAdvantag).
   * SIP test addresses - <111@bjn.vc>, <fireplace@ivr.vc>, <goldfish@selfie.vc>, <halloween@ivr.vc>, <havnen@expressway.dk>.
 * Deploy
-  * [CE-Deploy](https://github.com/voipnorm/CE-Deploy) ⭐ 59 | 🐛 21 | 🌐 HTML | 📅 2026-08-04 - Desktop application for deploying features (by voipnorm).
+  * [CE-Deploy](https://github.com/voipnorm/CE-Deploy) ⭐ 59 | 🐛 21 | 🌐 HTML | 📅 2026-08-15 - Desktop application for deploying features (by voipnorm).
   * [CiscoTPCustomXML](https://github.com/voipnorm/CiscoTPCustomXML) ⭐ 11 | 🐛 0 | 🌐 JavaScript | 📅 2018-04-24 - Deploy packages to Cisco Telepresence apps (by vipnorm).
   * [macros-env](https://github.com/ObjectIsAdvantag/macros-env) ⭐ 2 | 🐛 0 | 🌐 JavaScript | 📅 2023-06-06 - Enhance your macro runtime with environment variables (by ObjectIsAdvantag).
 
@@ -198,4 +198,4 @@ DISCLAIMER: Cisco does not make any commitments about the resources listed in th
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-14._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-15._
