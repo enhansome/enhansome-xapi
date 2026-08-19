@@ -1,11 +1,6 @@
 {
   "items": [
     {
-      "description": "Please take a quick gander at the Contribution guidelines first. Thanks to all contributors; you rock!\nIf you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!",
-      "items": [],
-      "title": "Contributing"
-    },
-    {
       "description": "Helper libraries to interact with codecs",
       "items": [
         {
@@ -20,6 +15,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 182970246,
                 "language": "Python",
                 "last_commit": "2022-05-09T09:25:30Z",
                 "owner": "cisco-ce",
@@ -41,6 +37,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 118922199,
                 "language": "TypeScript",
                 "last_commit": "2026-01-21T23:52:50Z",
                 "owner": "cisco-ce",
@@ -55,6 +52,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 223018773,
                 "language": "JavaScript",
                 "last_commit": "2023-01-05T02:44:59Z",
                 "owner": "valgaze",
@@ -76,6 +74,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 62242387,
                 "language": "PowerShell",
                 "last_commit": "2016-06-30T09:45:32Z",
                 "owner": "unifiedfx",
@@ -97,6 +96,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 182970246,
                 "language": "Python",
                 "last_commit": "2022-05-09T09:25:30Z",
                 "owner": "cisco-ce",
@@ -124,6 +124,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 113875859,
                 "language": "JavaScript",
                 "last_commit": "2026-03-24T17:41:20Z",
                 "owner": "CiscoDevNet",
@@ -138,6 +139,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 115175969,
                 "language": "HTML",
                 "last_commit": "2020-08-31T06:13:08Z",
                 "owner": "CiscoDevNet",
@@ -152,6 +154,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 116268523,
                 "language": "JavaScript",
                 "last_commit": "2021-07-30T20:31:09Z",
                 "owner": "thetechcatalyst",
@@ -166,18 +169,13 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 137441067,
                 "language": "JavaScript",
                 "last_commit": "2019-05-08T19:49:30Z",
                 "owner": "acaeti",
                 "repo": "yolo-oslo",
                 "stars": 5
               }
-            },
-            {
-              "node_type": "item",
-              "title": "macro-projects-Examples",
-              "description": "Cisco Video Endpoint Macro Repository (by Bobby-McGonigle).",
-              "children": []
             }
           ]
         },
@@ -193,6 +191,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 115175969,
                 "language": "HTML",
                 "last_commit": "2020-08-31T06:13:08Z",
                 "owner": "CiscoDevNet",
@@ -207,6 +206,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 78523648,
                 "language": "JavaScript",
                 "last_commit": "2022-12-12T05:03:46Z",
                 "owner": "CiscoDevNet",
@@ -221,6 +221,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 157739156,
                 "language": "TypeScript",
                 "last_commit": "2018-11-16T18:01:28Z",
                 "owner": "drkchiloll",
@@ -235,6 +236,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 122473269,
                 "language": "HTML",
                 "last_commit": "2020-01-23T04:12:47Z",
                 "owner": "ObjectIsAdvantag",
@@ -249,6 +251,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 101648509,
                 "language": "Python",
                 "last_commit": "2017-10-05T13:53:58Z",
                 "owner": "gsheppar",
@@ -263,6 +266,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 128782261,
                 "language": "Vue",
                 "last_commit": "2018-07-02T10:18:24Z",
                 "owner": "tloyau",
@@ -277,6 +281,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 116033699,
                 "language": "JavaScript",
                 "last_commit": "2018-11-15T22:12:16Z",
                 "owner": "voipnorm",
@@ -291,6 +296,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 128551510,
                 "language": "JavaScript",
                 "last_commit": "2018-06-22T14:43:12Z",
                 "owner": "ObjectIsAdvantag",
@@ -305,6 +311,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 191535808,
                 "language": "PHP",
                 "last_commit": "2019-07-15T09:16:33Z",
                 "owner": "DJF3",
@@ -319,7 +326,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T07:33:23.850Z",
+    "last_updated": "2026-08-19T07:34:10.258Z",
     "original_repository": "CiscoDevNet/awesome-xapi",
     "original_repository_sha": "fd44569bcf0ec7f8938a0108b13e3870a3a11241",
     "enhanced_repository": "enhansome/enhansome-xapi",
