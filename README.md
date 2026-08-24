@@ -28,9 +28,9 @@ DISCLAIMER: Cisco does not make any commitments about the resources listed in th
 
 *Tour the xAPI via step-by-step tutorials.*
 
+* [Macro Scripting](https://github.com/CiscoDevNet/xapi-samples/blob/master/macros/pdf/macro-tutorial.pdf) ⭐ 49 | 🐛 8 | 🌐 HTML | 📅 2020-08-31 - Write your first Macro scripts (by Cisco CE).
 * [Introduction to xAPI](https://learninglabs.cisco.com/lab/collab-xapi-intro/step/1) - Learn to invoke your device's API via SSH, HTTP and Node.js (by Cisco DevNet).
 * [In-Room Controls](https://learninglabs.cisco.com/lab/collab-xapi-controls/step/1) - Create an "Ultrasound Panel" animated via Node.js or a Macro (by Cisco DevNet).
-* [Macro Scripting](https://github.com/CiscoDevNet/xapi-samples/blob/master/macros/pdf/macro-tutorial.pdf) ⭐ 49 | 🐛 8 | 🌐 HTML | 📅 2020-08-31 - Write your first Macro scripts (by Cisco CE).
 * [Personalizing your device](https://learninglabs.cisco.com/lab/collab-xapi-branding/step/1) - Add your own logo and custom messages from code (by Cisco DevNet).
 
 ## Articles
@@ -44,10 +44,10 @@ DISCLAIMER: Cisco does not make any commitments about the resources listed in th
   * [Introducing WebSockets](https://community.cisco.com/t5/collaboration-voice-and-video/xapi-over-websocket-xows-ce9-7-x/ba-p/3831553) - xAPI over WebSockets: XoWS (pronounced cows).
   * [Introducing WebEngine](https://community.cisco.com/t5/collaboration-voice-and-video/a-dive-into-web-engine-and-the-new-ui-extensions-editor-digital/ba-p/3947191) - A dive into Web Engine, Digital Signage & Web Apps.
 * Community Articles
+  * [CE9-projects](https://github.com/thetechcatalyst/CE9-projects) ⭐ 25 | 🐛 0 | 🌐 JavaScript | 📅 2021-07-30 - Adam Schaeffer sharing projects and ideas.
   * [CE Programmability](https://blogs.cisco.com/developer/build-apps-for-webex-devices) - Learn How To Build Applications for Webex Devices.
   * [Holy cows!](https://blog.webex.com/collaboration-devices/holy-cows-xows-delivering-the-art-of-possible-with-video-devices/) - Delivering the art of possible with video devices.
   * [SIP messaging channel](https://voipnorm.blogspot.com/2019/07/ce-sip-messaging-channel-for-remote.html) - SIP Messaging Channel for Remote Endpoint Control.
-  * [CE9-projects](https://github.com/thetechcatalyst/CE9-projects) ⭐ 25 | 🐛 0 | 🌐 JavaScript | 📅 2021-07-30 - Adam Schaeffer sharing projects and ideas.
   * [WebSocket vs SSH vs HttpFeedback](http://voipnorm.blogspot.com/2019/07/ce-websocket-v-ssh-v-httpfeedback-which.html) - Which is Best?.
 * Help Articles
   * [Advanced Settings](https://collaborationhelp.cisco.com/article/en-us/n5pqqcm) - Advanced Settings for Room and Desk Devices

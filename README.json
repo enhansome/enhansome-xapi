@@ -1,6 +1,55 @@
 {
   "items": [
     {
+      "description": "Tour the xAPI via step-by-step tutorials.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Macro Scripting",
+          "description": "Write your first Macro scripts (by Cisco CE).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 115175969,
+            "language": "HTML",
+            "last_commit": "2020-08-31T06:13:08Z",
+            "owner": "CiscoDevNet",
+            "repo": "xapi-samples",
+            "stars": 49
+          }
+        }
+      ],
+      "title": "!Get Started!"
+    },
+    {
+      "description": "Blogs and community articles that document features, cover use cases or propose code samples.",
+      "items": [
+        {
+          "node_type": "group",
+          "title": "Community Articles",
+          "description": null,
+          "children": [
+            {
+              "node_type": "item",
+              "title": "CE9-projects",
+              "description": "Adam Schaeffer sharing projects and ideas.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 116268523,
+                "language": "JavaScript",
+                "last_commit": "2021-07-30T20:31:09Z",
+                "owner": "thetechcatalyst",
+                "repo": "CE9-projects",
+                "stars": 25
+              }
+            }
+          ]
+        }
+      ],
+      "title": "Articles"
+    },
+    {
       "description": "Helper libraries to interact with codecs",
       "items": [
         {
@@ -326,7 +375,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T07:53:36.982Z",
+    "last_updated": "2026-08-24T14:44:23.797Z",
     "original_repository": "CiscoDevNet/awesome-xapi",
     "original_repository_id": 125335242,
     "original_repository_sha": "fd44569bcf0ec7f8938a0108b13e3870a3a11241",
