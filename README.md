@@ -87,7 +87,7 @@ DISCLAIMER: Cisco does not make any commitments about the resources listed in th
   * [macro-projects-Examples](https://github.com/Bobby-McGonigle/Cisco-RoomDevice-Macro-Projects-Examples) - Cisco Video Endpoint Macro Repository (by Bobby-McGonigle).
 * Solutions
   * [maze game](https://github.com/CiscoDevNet/xapi-samples/tree/master/controls/maze) ⭐ 49 | 🐛 8 | 🌐 HTML | 📅 2020-08-31 - Navigate blind in a maze, look for the treasure (by ObjectIsAdvantag).
-  * [MyRoomKit](https://github.com/CiscoDevNet/botkit-webex-samples/tree/master/roomkit) ⭐ 47 | 🐛 12 | 🌐 JavaScript | 📅 2022-12-12 - Botkit chatbot as an extension of a RoomKit device (by ObjectIsAdvantag).
+  * [MyRoomKit](https://github.com/CiscoDevNet/botkit-webex-samples/tree/master/roomkit) ⭐ 48 | 🐛 12 | 🌐 JavaScript | 📅 2022-12-12 - Botkit chatbot as an extension of a RoomKit device (by ObjectIsAdvantag).
   * [cisco-tp-snapshots](https://github.com/drkchiloll/cisco-tp-snapshots) ⭐ 16 | 🐛 0 | 🌐 TypeScript | 📅 2018-11-16 - Take snapshots with your Cisco Room Device, aka Telepresence Endpoint (by drkchiloll).
   * [roomkit-collector](https://github.com/ObjectIsAdvantag/roomkit-collector) ⭐ 16 | 🐛 4 | 🌐 HTML | 📅 2020-01-23 - Collect PeopleCount events and compute weighted averages (by ObjectIsAdvantag).
   * [codec-dashboard](https://github.com/gsheppar/codec-dashboard) ⭐ 14 | 🐛 0 | 🌐 Python | 📅 2017-10-05 - Web dashboard to display/alert on codec information (by gsheppar).
@@ -198,4 +198,4 @@ DISCLAIMER: Cisco does not make any commitments about the resources listed in th
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-24._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-25._
