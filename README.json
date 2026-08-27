@@ -375,9 +375,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-26T07:41:21.139Z",
-    "original_repository": "CiscoDevNet/awesome-xapi",
-    "original_repository_id": 125335242,
+    "last_updated": "2026-08-27T12:14:36.967Z",
+    "original_repository_info": {
+      "archived": false,
+      "id": 125335242,
+      "language": null,
+      "last_commit": "2022-11-22T21:10:01Z",
+      "owner": "CiscoDevNet",
+      "repo": "awesome-xapi",
+      "stars": 72
+    },
     "original_repository_sha": "fd44569bcf0ec7f8938a0108b13e3870a3a11241",
     "enhanced_repository": "enhansome/enhansome-xapi",
     "enhanced_repository_description": null,
