@@ -16,7 +16,8 @@
             "owner": "CiscoDevNet",
             "repo": "xapi-samples",
             "stars": 49
-          }
+          },
+          "first_seen": "2026-08-28T19:12:32.802Z"
         }
       ],
       "title": "!Get Started!"
@@ -42,7 +43,8 @@
                 "owner": "thetechcatalyst",
                 "repo": "CE9-projects",
                 "stars": 25
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             }
           ]
         }
@@ -70,7 +72,8 @@
                 "owner": "cisco-ce",
                 "repo": "pyxows",
                 "stars": 19
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             }
           ]
         },
@@ -92,7 +95,8 @@
                 "owner": "cisco-ce",
                 "repo": "jsxapi",
                 "stars": 46
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -107,7 +111,8 @@
                 "owner": "valgaze",
                 "repo": "sugar",
                 "stars": 5
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             }
           ]
         },
@@ -129,7 +134,8 @@
                 "owner": "unifiedfx",
                 "repo": "Send-XCommand",
                 "stars": 13
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             }
           ]
         },
@@ -151,7 +157,8 @@
                 "owner": "cisco-ce",
                 "repo": "pyxows",
                 "stars": 19
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             }
           ]
         }
@@ -179,7 +186,8 @@
                 "owner": "CiscoDevNet",
                 "repo": "roomdevices-macros-samples",
                 "stars": 197
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -194,7 +202,8 @@
                 "owner": "CiscoDevNet",
                 "repo": "xapi-samples",
                 "stars": 49
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -209,7 +218,8 @@
                 "owner": "thetechcatalyst",
                 "repo": "CE9-projects",
                 "stars": 25
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -224,7 +234,8 @@
                 "owner": "acaeti",
                 "repo": "yolo-oslo",
                 "stars": 5
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             }
           ]
         },
@@ -246,7 +257,8 @@
                 "owner": "CiscoDevNet",
                 "repo": "xapi-samples",
                 "stars": 49
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -261,7 +273,8 @@
                 "owner": "CiscoDevNet",
                 "repo": "botkit-webex-samples",
                 "stars": 48
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -276,7 +289,8 @@
                 "owner": "drkchiloll",
                 "repo": "cisco-tp-snapshots",
                 "stars": 16
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -291,7 +305,8 @@
                 "owner": "ObjectIsAdvantag",
                 "repo": "roomkit-collector",
                 "stars": 16
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -306,7 +321,8 @@
                 "owner": "gsheppar",
                 "repo": "codec-dashboard",
                 "stars": 14
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -321,7 +337,8 @@
                 "owner": "tloyau",
                 "repo": "feedback-meeting",
                 "stars": 12
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -336,7 +353,8 @@
                 "owner": "voipnorm",
                 "repo": "telehealthPresence",
                 "stars": 12
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -351,7 +369,8 @@
                 "owner": "ObjectIsAdvantag",
                 "repo": "roomkit-react-map",
                 "stars": 7
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             },
             {
               "node_type": "item",
@@ -366,7 +385,8 @@
                 "owner": "DJF3",
                 "repo": "Cisco-Video-System-Status-Monitor",
                 "stars": 6
-              }
+              },
+              "first_seen": "2026-08-28T19:12:32.802Z"
             }
           ]
         }
@@ -375,7 +395,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T18:02:35.577Z",
+    "last_updated": "2026-08-28T19:12:32.802Z",
     "original_repository_info": {
       "archived": false,
       "id": 125335242,
