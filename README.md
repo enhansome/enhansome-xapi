@@ -80,7 +80,7 @@ DISCLAIMER: Cisco does not make any commitments about the resources listed in th
 *From basic examples to finalized solutions illustrating the xAPI capabilities.*
 
 * Repositories of examples
-  * [roomdevices-macros-samples](https://github.com/CiscoDevNet/roomdevices-macros-samples) ⭐ 197 | 🐛 14 | 🌐 JavaScript | 📅 2026-03-24 - Selection of macros proposed by the xAPI dev team (by Cisco CE).
+  * [roomdevices-macros-samples](https://github.com/CiscoDevNet/roomdevices-macros-samples) ⭐ 197 | 🐛 15 | 🌐 JavaScript | 📅 2026-03-24 - Selection of macros proposed by the xAPI dev team (by Cisco CE).
   * [xapi-samples](https://github.com/CiscoDevNet/xapi-samples) ⭐ 49 | 🐛 8 | 🌐 HTML | 📅 2020-08-31 - UI extensions, macros and scripts to quickly learn xAPI (by ObjectIsAdvantag).
   * [CE9-projects](https://github.com/technologyordie/CE9-projects) ⭐ 25 | 🐛 0 | 🌐 JavaScript | 📅 2021-07-30 - Projects for Cisco DX, MX, SX and Room Systems (by technologyordie).
   * [yolo-oslo](https://github.com/acaeti/yolo-oslo) ⭐ 5 | 🐛 0 | 🌐 JavaScript | 📅 2019-05-08 - Repository of in-room controls and macro samples (by acaeti).
@@ -198,4 +198,4 @@ DISCLAIMER: Cisco does not make any commitments about the resources listed in th
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-14._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-15._
