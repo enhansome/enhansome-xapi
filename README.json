@@ -120,7 +120,7 @@
                 "open_issues": 17,
                 "owner": "cisco-ce",
                 "repo": "jsxapi",
-                "stars": 46,
+                "stars": 45,
                 "topics": []
               },
               "first_seen": "2026-08-28T19:12:32.802Z"
@@ -542,7 +542,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-18T11:55:00.118Z",
+    "last_updated": "2026-10-19T14:16:44.930Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of developer resources to integrate with Webex Devices",

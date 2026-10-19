@@ -63,7 +63,7 @@ DISCLAIMER: Cisco does not make any commitments about the resources listed in th
 * Command Line Interface
   * [xows CLI](https://github.com/cisco-ce/pyxows/blob/master/xows/__main__.py) ⭐ 19 | 🐛 0 | 🌐 Python | 📅 2022-05-09 - Command-line utility built on top of pyxows (by Cisco CE).
 * JavaScript
-  * [jsxapi](https://github.com/cisco-ce/jsxapi) ⭐ 46 | 🐛 17 | 🌐 TypeScript | 📅 2026-01-21 - JavaScript bindings for Cisco Collaboration Endpoint  XAPI (by Cisco CE).
+  * [jsxapi](https://github.com/cisco-ce/jsxapi) ⭐ 45 | 🐛 17 | 🌐 TypeScript | 📅 2026-01-21 - JavaScript bindings for Cisco Collaboration Endpoint  XAPI (by Cisco CE).
   * [sugar](https://github.com/valgaze/sugar) ⭐ 5 | 🐛 6 | 🌐 JavaScript | 📅 2023-01-05 - Syntactic "$ugar" for handling user input (by valgaze).
 * Postman
   * [ce-xapi-as-admin](https://explore.postman.com/api/1802/cisco-ce-xapi-as-admin) - Collection for CE xAPI as Administrator (by ObjectIsAdvantag).
@@ -198,4 +198,4 @@ DISCLAIMER: Cisco does not make any commitments about the resources listed in th
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-18._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-19._
