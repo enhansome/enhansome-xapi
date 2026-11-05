@@ -231,7 +231,7 @@
                 "open_issues": 15,
                 "owner": "CiscoDevNet",
                 "repo": "roomdevices-macros-samples",
-                "stars": 197,
+                "stars": 198,
                 "topics": [
                   "dx80",
                   "macros",
@@ -542,7 +542,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-04T15:01:20.278Z",
+    "last_updated": "2026-11-05T15:07:02.791Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of developer resources to integrate with Webex Devices",
